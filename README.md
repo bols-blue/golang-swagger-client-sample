@@ -17,17 +17,19 @@ Put the package under your project folder and add the following in import:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://virtserver.swaggerhub.com/aHisayoshiSuehiro/ssl_manage_server/1.0.0*
+All URIs are relative to *http://localhost:1323/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *AdminsApi* | [**AddInventory**](docs/AdminsApi.md#addinventory) | **Post** /inventory | adds an inventory item
 *DefaultApi* | [**HelloGet**](docs/DefaultApi.md#helloget) | **Get** /hello | 
+*DefaultApi* | [**HelloPost**](docs/DefaultApi.md#hellopost) | **Post** /hello | 
 *DevelopersApi* | [**SearchInventory**](docs/DevelopersApi.md#searchinventory) | **Get** /inventory | searches inventory
 
 
 ## Documentation For Models
 
+ - [Hello](docs/Hello.md)
  - [InventoryItem](docs/InventoryItem.md)
  - [Manufacturer](docs/Manufacturer.md)
 

@@ -38,7 +38,7 @@ type Configuration struct {
 
 func NewConfiguration() *Configuration {
 	cfg := &Configuration{
-		BasePath:      "https://virtserver.swaggerhub.com/aHisayoshiSuehiro/ssl_manage_server/1.0.0",
+		BasePath:      "http://localhost:1323",
 		DefaultHeader: make(map[string]string),
 		APIKey:        make(map[string]string),
 		APIKeyPrefix:  make(map[string]string),

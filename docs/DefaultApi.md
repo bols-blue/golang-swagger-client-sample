@@ -1,14 +1,15 @@
 # \DefaultApi
 
-All URIs are relative to *https://virtserver.swaggerhub.com/aHisayoshiSuehiro/ssl_manage_server/1.0.0*
+All URIs are relative to *http://localhost:1323/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**HelloGet**](DefaultApi.md#HelloGet) | **Get** /hello | 
+[**HelloPost**](DefaultApi.md#HelloPost) | **Post** /hello | 
 
 
 # **HelloGet**
-> HelloGet()
+> Hello HelloGet()
 
 
 
@@ -18,7 +19,31 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-void (empty response body)
+[**Hello**](Hello.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **HelloPost**
+> Hello HelloPost()
+
+
+
+
+### Parameters
+This endpoint does not need any parameter.
+
+### Return type
+
+[**Hello**](Hello.md)
 
 ### Authorization
 

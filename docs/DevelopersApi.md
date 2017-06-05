@@ -1,6 +1,6 @@
 # \DevelopersApi
 
-All URIs are relative to *https://virtserver.swaggerhub.com/aHisayoshiSuehiro/ssl_manage_server/1.0.0*
+All URIs are relative to *http://localhost:1323/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
