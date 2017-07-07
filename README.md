@@ -24,6 +24,7 @@ Class | Method | HTTP request | Description
 *AdminsApi* | [**AddInventory**](docs/AdminsApi.md#addinventory) | **Post** /inventory | adds an inventory item
 *DefaultApi* | [**HelloGet**](docs/DefaultApi.md#helloget) | **Get** /hello | 
 *DefaultApi* | [**HelloPost**](docs/DefaultApi.md#hellopost) | **Post** /hello | 
+*DefaultApi* | [**HelloPut**](docs/DefaultApi.md#helloput) | **Put** /hello | 
 *DevelopersApi* | [**SearchInventory**](docs/DevelopersApi.md#searchinventory) | **Get** /inventory | searches inventory
 
 
